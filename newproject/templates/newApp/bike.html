@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/bike.css" %}">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        {% block abc %}{% endblock %}
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <h1 class="tt">GROWTH.com</h1>
+            <p class="side">THE WORLD'S LARGEST ALL-IN-ONE SITE</p>
+        </div>
+      </div>
+    </header>
+    <ul>
+    <li><h1 class="active" >RENTAL</h1></li>
+    <li><a href="/home"><i class="fa fa-home" style="font-size:24px">Home</i></a></li>
+    <li><a href="/bike">Bike</a></li>
+    <li><a href="#about">Car</a></li>
+    <li><a href="#about">House</a></li>
+    <li><a href="/about">AboutUs</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a class="ss" href="/accounts/logout/">Logout</a></li>
+    <li><a class="ss" href="/signup">SignUp</a></li>
+    <li><a class="ss" href="/accounts/login/">Login</a></li>
+  </ul>
+  {%block body_blacks%}
+  <section class="bike">
+    <div class="container">
+      <div class="b1"><br><br>
+      <h1 id="h1">RENT TODAY, OWN TOMORROW</h1><br>
+    <p id="p">Zero-Down Payment ,Flexible Ownership</p><br><br>
+    <div class="opt">
+    <label id="dt" for="birthday">START DATE:</label>
+  <input id="d" type="date" id="dt" name="birthday" required>
+  <label id="dt" for="birthday">END DATE:</label>
+<input id="t" type="date" id="dtt" name="birthday" required><br><br><br>
+  <a href="/book" class="w3">RIDE NOW</a><br><br><br><br>
+</div>
+</div>
+</div>
+  </section>
+  <section class="bik">
+      <h1 class="t1">GROWTH.bike</h1>
+      <p id="p1"></p><br><br>
+      <div class="rr">
+      <div class="row">
+      <div class="col-sm-9 col-md-3">
+        <i class="fa fa-dollar" style="font-size:48px;color:green"> Lowest Price <span>Guarantee</span> </i>
+      </div>
+      <div class="col-sm-9 col-md-3">
+        <i class="fa fa-clock-o" style="font-size:48px;color:green"> 24/7 <span>Available</span>  </i>
+      </div>
+      <div class="col-sm-9 col-md-3">
+        <i class="fa fa-truck" style="font-size:48px;color:green"> Door Step <span>Delivery</span>  </i>
+      </div>
+    </div> <br><br><br><br>
+    <div class="row">
+    <div class="col-sm-9 col-md-3">
+      <i class="fa fa-motorcycle" style="font-size:48px;color:green">  Qualities <span>Bikes</span> </i>
+    </div>
+    <div class="col-sm-9 col-md-3">
+      <i class="fa fa-file-text" style="font-size:48px;color:green"> No Hard <span>Documents</span>  </i>
+    </div>
+    <div class="col-sm-9 col-md-3">
+      <i class="fa fa-hand-o-up" style="font-size:48px;color:green"> Road Side <span>Assistance</span>  </i>
+    </div>
+  </div>
+</div><br><br><br>
+    </div>
+  </section>
+  <section class="bikes">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <div class="container">
+          <h1 id="as">Ask Us Anything</h1><br>
+          <p id="if">If you have any doubts. Please visit our <br>Growth  <a href="/contact"> Contact</a> Section.Have any issues releated to <br>
+          rental services and want to ask us on call..?<br> <span>+91-8453468353</span><br>Whatsaap/Call </p><br><br><br>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+      <a href="/contact"><i class="fa fa-phone"></i></a>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <h1 id="hh">Rental Time Details</h1>
+  <img id="ab"src="{% static "images/bb.png" %}" alt=""><br><br><br>
+</div>
+{%endblock%}
+
+  </body>
+</html>

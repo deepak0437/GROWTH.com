@@ -1,0 +1,218 @@
+body{
+  height: 1200px;
+}
+.container .tt{
+font-family: 'Sofia';font-size: 22px;
+font-size: 40px;
+margin-left: -100px;
+font-weight: 800;
+font-variant: small-caps;
+}
+.side{
+  font-size:20px;
+  margin-top: -30px;
+  margin-right: -130px;
+}
+header .side{
+  float:right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li a{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 19px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+li .ss{
+  float: right;
+
+}
+li a:hover{
+  background-color: #3d7273;
+  color: #03ffe6;
+  text-decoration: none;
+  transition: 0.4s ease-in;
+  font-weight: bolder;
+}
+
+.active {
+  background-color: #4fdee0;
+  font-weight: bolder;
+  color: black;
+  font-size: 30px;
+  margin: 0;
+  padding: 12.2px;
+}
+.bike #h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 70px;
+  color: yellow;
+  text-shadow: 2px 2px green;
+}
+.bike #p{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px red;
+}
+.bike .opt{
+  padding-right:35px;
+  text-align: center;
+}
+.bike #dt{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 50px;
+  color: white;
+}
+.bike .w3{
+  font-size: 30px;
+  text-align: center;
+  border: 3px solid black;
+  padding: 5px;
+  background-color: lightgray;
+  color: red;
+  border-radius: 9px;
+  font-weight: bold;
+}
+.bike .w3:hover{
+  background-color: pink;
+  color: black;
+  font-size: 31px;
+  font-weight:700;
+  text-decoration: none;
+  }
+.bike{
+  background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.10)),url('/static/images/bike.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bik .t1{
+  font-family: 'Sofia';font-size: 22px;
+  font-size: 40px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.bik #p1{
+  border: 3px solid red;
+  width: 60%;
+  margin-left: 370px;
+  margin-top: -30px;
+}
+.bik .rr{
+  margin-left:90px;
+  padding-left:30px;
+
+}
+.bik i span{
+  margin-left: 57px;
+}
+.bik i{
+border-left: 4px solid orange;
+padding-left: 10px;
+color: black;
+
+}
+.bikes{
+  background-color: lightgray;
+}
+.bikes #as{
+  text-align: center;
+  margin-top: 110px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.bikes #if{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  word-spacing: 6px;
+}
+.bikes #if span{
+  color: red;
+  font-weight: bold;
+}
+.bikes .fa-phone{
+  font-size: 290px;
+  margin-left: 110px;
+  margin-top: 130px;
+  color: brown;
+}
+.bikes .fa-phone:hover{
+  font-size: 292px;
+  border-bottom: 5px solid white;
+  color: gray;
+}
+img{
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#hh{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.one #ii{
+  font-size: 60px;
+  font-weight: bold;
+  color: darkgreen;
+  font-family: serif;
+
+}
+.one #ij{
+  border: 4px solid black;
+  width:;
+}
+.one #r{
+  font-size: 45px;
+  font-weight: bold;
+  color: gray;
+}
+.one .hr{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left:-230px;
+  border: 7px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: brown;
+}
+.one .hr:hover{
+  text-decoration: none;
+  color: brown;
+  background-color: lightgray;
+  font-size: 32px;
+  font-weight: bolder;
+  border: 7px solid brown;
+}
+.one #s{
+  font-size: 25px;
+  font-weight: bold;
+}
+.one span{
+  font-size: 25px;
+  font-weight: 500;
+}

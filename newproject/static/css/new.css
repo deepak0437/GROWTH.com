@@ -1,0 +1,230 @@
+body{
+  height: 3440px;
+  width:
+}
+.container .tt{
+font-family: 'Sofia';font-size: 22px;
+font-size: 40px;
+margin-left: -100px;
+font-weight: 800;
+font-variant: small-caps;
+}
+.side{
+  font-size:20px;
+  margin-top: -30px;
+  margin-right: -130px;
+}
+header .side{
+  float:right;
+}
+.topnav {
+  background-color:green;
+  overflow: hidden;
+  height: 60px;
+
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 36px;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing:2px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+ #aa{
+margin-left: 330px;
+}
+.new{
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)),url('/static/images/back.jpg');
+  background-size: 100% 100%;
+  margin-top: -17px;
+
+}
+.new .dd{
+  font-size: 50px;
+  text-align: center;
+  word-spacing: 5px;
+  font-weight: bold;
+  padding-top: 70px;
+  color: white;
+}
+.new .dd span{
+  color: orange;
+}
+.new #pp{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  color: violet;
+}
+.new button{
+font-size: 25px;
+border-radius: 7px;
+background-color: brown;
+margin-left: 630px;
+}
+.new #log{
+  margin-left: 675px;
+
+}
+.new a .btn-warning:hover{
+  transition: 0.4s ease-in;
+ background-color: red;
+}
+
+.first .row{
+  text-align: center;
+  padding-top: 50px;
+  width: 101%;
+  background-color:#d7e68e;
+}
+.first .one {
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+}
+.first .two{
+  text-align: center;
+  font-size: 19px;
+  word-spacing: 2px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.first #onee{
+  border: 5px solid black;
+  box-shadow: 0px 0px 0px 7px pink;
+  border-radius: 50%;
+  width: 70px;
+  height: 60px;
+}
+.second #ab{
+height: 50%;
+width: 70%;
+margin-left: 50px;
+}
+.second #abc{
+  border-style: curve;
+}
+.again .side{
+  font-size: 17px;
+font-weight: bold;
+}
+
+.again #lo{
+  padding-right: 40px;
+}
+.again{
+  margin-top: 170px;
+}
+.again .aag{
+  text-align: center;
+  font-size:50px;
+}
+.part #mid{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+.part #midd{
+  text-align: center;
+  padding-top: 40px;
+  color: red;
+  word-spacing: 5px;
+}
+.part #aaa{
+  width: 80%;
+  text-align: center;
+  height:100%;
+margin-right: -60px;;
+}
+.part #bbb{
+  width:72%;
+}
+.part #ccc{
+  width: 80%;
+}
+.part .side{
+padding-left: 300px;
+}
+.part{
+  background-color: #acd48e;
+}
+.last #hello{
+margin-top: 60px;
+margin-left: 60px;
+}
+.last #helo{
+  font-weight: bold;
+  margin-left: 60px;
+}
+.last #he{
+  margin-left: 60px;
+word-spacing: 3px;
+font-weight: bold;
+}
+.last .team{
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 150px;
+  border-bottom:red solid 5px;
+  border-bottom-right-radius:60px;
+  border-bottom-left-radius:60px;
+}
+.last .comp{
+  font-weight: bold;
+  float: left;
+  padding-left: 50px;
+
+}
+.last .compa{
+  font-weight: bold;
+  float: left;
+  padding-left: 50px;
+  margin-top: 80px;
+}
+
+.download h2{
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+}
+.download .sub-heading p{
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: expanded;
+  color: white;
+}
+.download{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/bridge.jpg);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.download .default-btn{
+  background: transparent;
+  border: 1px solid  white;
+  color: white;
+  font-size: 20px;
+  padding: 8px 40px;
+  margin: 0px 12px;
+  transition: 0.4s ease;
+}
+.download .default-btn:hover{
+  background:deepskyblue;
+  color: black;
+  box-shadow: 0px 0px 0px 3px skyblue;
+}
+.download .fas{
+  margin-right:20px;
+}
+#download{
+  margin-top: 5px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Misers and His Golds</h1><br>
+      <h2>  Moral:<span>A possession is as important as what it’s used for.</span> </h2>
+      <img id="ab"src="{% static "images/img14.webp" %}" alt="">
+      <p>There once was an old miser who lived in a house with a garden. The old miser used to hide all his gold coins under stones in his garden.
+
+Every night, before he went to bed, the miser went out into his garden to count his coins. He continued the same routine every day, but he never spent a single, golden coin.
+
+One day, a thief saw the old miser hiding his coins. Once the old miser went back into his house, the thief went to the hiding place and took all the gold.
+
+The following day, as the old man came out to count his coins, he found it was gone and started wailing loudly. His neighbor heard the cries and came running, asking what had happened. Upon learning what had occurred, the neighbor asked, “Why didn’t you just save the money inside your house where it would’ve been safe?”
+
+The neighbor continued, “Having it inside the house would make it easier to access when you need to buy something.” “Buy something?” answered the miser, “I was never going to spend my gold.”
+
+When hearing this, the neighbor picked up a stone and threw it. Then, he said, “If that’s the case, then save the stone. It’s as worthless as the gold you’ve lost.”
+
+</p>
+    </div>
+</section>
+
+{%endblock%}

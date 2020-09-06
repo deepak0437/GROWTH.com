@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Leap at The Rhodes</h1><br>
+      <h2>  Moral:<span>It’s the deeds that count, not the boasting words.</span> </h2>
+      <img id="ab"src="{% static "images/img17.webp" %}" alt="">
+      <p>Once, there was a man who visited foreign lands. When he returned, all he could talk about was the wonderful adventures he had and the great deeds he had done.
+
+One of the feats he told was about a leap he made in a city called Rhodes.
+
+“The leap was so great,” the man said. “No other man can make such a leap. Many persons in Rhodes saw me and can prove I am telling the truth.”
+
+“No need for witnesses,” said one who was listening. “Suppose that this city is Rhodes, now show how far you can jump.”</p>
+    </div>
+</section>
+
+{%endblock%}

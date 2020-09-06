@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{%extends 'newApp/story.html'%}
+{% load static %}
+{% block yz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{% block body_blocks%}
+<section class="gk">
+  <div class="co">
+      <div class="container"><br><br>
+    <h1>Current Affairs</h1><br>
+    <p>General Knowledge List: This category caters not only to competition aspirants but also very useful for general readers. Gk Facts: This category contains the research based content on general knowledge from various fields like mythology, Science, Defence etc. </p>
+    <br><br><br>
+  </div>
+</div>
+  <h2>General Knowledge:</h2><br><br><br><br>
+</section>
+<section class="gkk">
+  <div class="head">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-4"><br><br>
+     <img id="hi" src="{% static "images/history.png" %}" alt="">
+     <a id="ab" href="/history">History Of India</a><br><br>
+        </div>
+        <div class="col-lg-8 col-sm-4"><br><br>
+    <img id="ge" src="{% static "images/geo.jpeg" %}" alt="">
+    <a id="aa" href="/geo">Geography Of India</a><br><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-4"><br><br>
+     <img id="hi" src="{% static "images/sport.jpg" %}" alt="">
+     <a id="ab" href="/sport">Sports & Games</a><br><br><br><br>
+        </div>
+        <div class="col-lg-8 col-sm-4"><br><br>
+    <img id="ge" src="{% static "images/eco.jpg" %}" alt="">
+    <a id="aa" href="/eco">Indian Economy</a><br><br><br><br>
+    </div>
+  </div>
+</section>
+
+{%endblock%}

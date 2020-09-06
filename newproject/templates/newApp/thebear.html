@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Bear and the Two Friends</h1><br>
+      <h2>  Moral:<span>A true friend will always support and stand by you in any situation.</span> </h2>
+      <img id="ab"src="{% static "images/img13.webp" %}" alt="">
+      <p>One day, two friends were walking through the forest. They knew the forest was a dangerous place and that anything could happen. So, they promised to remain close to each other in case of any danger.
+
+All of a sudden, a big bear was approaching them. One of the friends quickly climbed a nearby tree, leaving the other friend behind.
+
+The other friend did not know how to climb, and instead, followed common sense. He laid down on the ground and remained there, breathless, pretending to be dead.
+
+The bear approached the friend lying on the ground. The animal started to smell his ear before slowly wandering off again because bears never touch those who are dead.
+
+Soon, the friend who hid in the tree came down. He asked his friend, “My dear friend, what secret did the bear whisper to you?” The friend replied, “The bear simply advised me never to believe a false friend.”
+
+</p>
+    </div>
+</section>
+
+{%endblock%}

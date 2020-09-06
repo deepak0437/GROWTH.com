@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Best Golden Touch</h1>
+      <h2>  Moral:<span>Lying breaks trust — even if you’re telling the truth, no one believes a liar.</span> </h2>
+      <img id="ab"src="{% static "images/img.webp" %}" alt="">
+      <p>There once was a king named Midas who did a good deed for a Satyr. And he was then granted a wish by Dionysus, the god of wine.
+        For his wish, Midas asked that whatever he touched would turn to gold. Despite Dionysus’ efforts to prevent it, Midas pleaded that this was a fantastic wish, and so, it was bestowed.
+
+  Excited about his newly-earned powers, Midas started touching all kinds of things, turning each item into pure gold.
+
+  But soon, Midas became hungry. As he picked up a piece of food, he found he couldn’t eat it. It had turned to gold in his hand.
+
+  Hungry, Midas groaned, “I’ll starve! Perhaps this was not such an excellent wish after all!”
+
+  Seeing his dismay, Midas’ beloved daughter threw her arms around him to comfort him, and she, too, turned to gold. “The golden touch is no blessing,” Midas cried.</p>
+    </div>
+</section>
+
+{%endblock%}

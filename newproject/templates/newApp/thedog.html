@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Anny Dog At the Well</h1><br>
+      <h2>  Moral:<span>Always listen to what elders say and don’t defy them.</span> </h2>
+      <img id="ab"src="{% static "images/img15.webp" %}" alt="">
+      <p>A mother dog and her pups lived on a farm. On the farm, there was a well. The mother dog always told her pups never to go near or play around it.
+
+One day, one of the pups was overcome by curiosity and wondered why they weren’t allowed to go near the well. So, he decided he wanted to explore it.
+
+He went down to the well and climbed up the wall to peek inside. In the well, he saw his reflection in the water but thought it was another dog. The little pup got angry when his reflection was imitating him, so he decided to fight it.
+
+The little pup jumped into the well, only to find there was no dog. He began to bark and bark until the farmer came to rescue him. The pup had learned his lesson and never went back to the well again.
+
+</p>
+    </div>
+</section>
+
+{%endblock%}

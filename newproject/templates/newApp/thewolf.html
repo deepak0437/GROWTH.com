@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Wolfs and the Sheeps</h1><br>
+      <h2>  Moral:<span>A person’s ulterior motives are easy to spot if someone is paying attention.</span> </h2>
+      <img id="ab"src="{% static "images/img18.webp" %}" alt="">
+      <p>A wolf had gotten seriously hurt during a fight with a bear. He wasn’t able to move, and so, could not satisfy his thirst or hunger.
+
+One day, a sheep passed by his hiding place, and so the wolf decided to call out to him. “Please fetch me some water,” said the wolf. “That might give me some strength to get some solid food.”
+
+“Solid food!” the sheep said. “I suppose that means me. If I brought you something to drink, it would merely be to wash me down. Don’t speak to me about fetching a drink.”
+Moral stories offer several benefits for children of all ages. They work to engage your child’s imagination, are entertaining, and can make your little one smile. Short moral stories work well at getting your child’s attention, keeping them focused during the length of the story.</p>
+    </div>
+</section>
+{%endblock%}

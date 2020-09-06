@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The High Controlling Anger</h1><br>
+      <h2>  Moral:<span>Anger is like a knife — one of the most dangerous weapons. When you use it, the wounds will heal, but the scars remain.</span> </h2>
+      <img id="ab"src="{% static "images/img16.webp" %}" alt="">
+      <p>Once, there was a young boy. This boy had problems controlling his anger. When he got angry, he would say the first thing that came to mind, even if it affected people.
+
+One day, his father gifted him a hammer and a bundle of nails, then said, “Whenever you get mad, hammer a nail into the backyard fence.”
+
+In the first days, the boy used up half of the nails. Over the next weeks, he used up fewer nails, until his temper was under control. Then, his father asked the young boy to remove a nail for each day he didn’t lose his temper.
+
+On the day when the boy removed his last nail, his father told him, “You have done good, boy. But, can you see the holes in the wall? The fence is never going to be the same. Likewise, when you say mean things in anger, you’ll leave a scar.”</p>
+    </div>
+</section>
+
+{%endblock%}

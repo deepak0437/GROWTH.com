@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{%extends 'newApp/store.html'%}
+{% load static %}
+{% block xyz %}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static "css/store.css" %}">
+{%endblock%}
+{%block body_block%}
+<section class="the">
+    <div class="container">
+      <h1>The Farmer and the Well</h1><br>
+      <h2>  Moral:<span>Cheating will not get you anything. If you cheat, you’ll pay soon enough..</span> </h2>
+      <img id="ab"src="{% static "images/img6.webp" %}" alt="">
+      <p>One day, a farmer was looking for a water source for his farm, when he bought a well from his neighbor. The neighbor, however, was cunning. The next day, as the farmer came to draw water from his well, the neighbor refused to let him take any water.
+
+When the farmer asked why, the neighbor replied, “I sold you the well, not the water,” and walked away. Distraught, the farmer went to the emperor to ask for justice. He explained what had happened.
+
+The emperor called on Birbal, one of his nine, and wisest, courtiers. Birbal proceeded to question the neighbor, “Why don’t you let the farmer take water from the well? You did sell the well to the farmer?”
+
+The neighbor replied, “Birbal, I did sell the well to the farmer but not the water within it. He has no right to draw water from the well.”
+
+Birbal said, “Look, since you sold the well, you have no right to keep the water in the farmer’s well. Either you pay rent to the farmer, or take it out immediately.” Realizing that his scheme had failed, the neighbor apologized and went home.</p>
+    </div>
+</section>
+
+{%endblock%}
